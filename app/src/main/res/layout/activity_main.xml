@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/degrade"
+    android:orientation="vertical"
+    android:gravity="center" android:layout_height="match_parent" android:layout_width="match_parent">
+    <TextView
+        android:id="@+id/tv_main_hello"
+        android:text="@string/hello"
+        android:elevation="50dp"
+        android:textSize="20sp"
+        android:background="@color/vert"
+        android:layout_marginTop="20dp" android:layout_height="wrap_content" android:layout_width="match_parent"/>
+    <Button
+        android:id="@+id/bt_main_hest"
+        android:text="@string/hello_student"
+        android:background="@drawable/btn"
+        android:onClick="onMainClickManager"
+        android:layout_marginTop="50dp" android:layout_height="wrap_content" android:layout_width="match_parent"
+        tools:ignore=" OnClick"/>
+    <Button
+        android:id="@+id/bt_main_hean"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/intensite"
+        android:text="@string/hello_android"
+        android:onClick="onMainClickManager" android:layout_height="wrap_content" android:layout_width="match_parent"
+        tools:ignore=" OnClick"/>
+</LinearLayout>
